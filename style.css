@@ -1,0 +1,71 @@
+#top{
+  display: flex;
+  justify-content: space-between; 
+}
+
+#div_Title_Challenge{
+  text-align: center;
+}
+
+#div_question1{
+  display: flex;
+  justify-content: center;
+}
+
+#answer{
+/* text-align: center; */
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+#answer button{
+white-space: nowrap;
+text-align: center;
+}
+div h5{
+  display: inline;
+}
+
+#FinalScore{
+  display: flex;
+  justify-content: center;
+}
+
+#Enterinitials {
+  display: flex;
+  justify-content: center;
+}
+
+#Highscore{
+  display: flex;
+  justify-content: center; 
+}
+
+#GoBackCHS{
+  display: flex;
+  justify-content: center; 
+}
+
+#lab{
+  display: flex;
+  justify-content: center;  
+}
+#Result{
+  display: flex;
+  justify-content: center;  
+}
+
+
+/* 
+#Time-Section{
+  display:flex
+}
+
+.btn{
+  display: block;
+}
+
+#wraper{
+  display: flex;
+  justify-content: center;
+} */

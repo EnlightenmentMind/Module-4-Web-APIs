@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8"/>
+        <meta name="" ?>
+        <link rel="stylesheet" href="./style.css" />
+        <title>Code Quiz</title>
+    </header>
+
+    <body>
+    <div id="top">
+        <div>
+            <h5>high score</h5>
+            <label id="lab_highScore"></label>
+        </div>
+        <div>
+            <h5>time</h5>
+            <label id="lab_timeLeft"></label>
+        </div>
+    </div>
+    <div id="div_questions">
+        
+        <div id="div_startQuiz">
+            <div id="div_Title_Challenge">
+                <h1>Coding Quiz Challenge</h1>
+                <h3>Try to answer the following code-related qustions within the time limit.</h3>
+                <h3>Keep in mind that incorrect answers will penalize your score/time by ten second!</h3>
+            <button id="btn_StartQuiz">Start Quiz</button>
+             </div>
+        </div>
+
+        <div id="div_question1">
+            <div id="question"> <!-- 1 -->
+                <h1 style= "text-align: center;"> Commonly used data types Do Not Include: </h1>
+            </div>
+            <div id="answer">
+                <button id="btn_q1_string">1.strings</button>
+                <button id="btn_q1_booleans">2.booleans</button>
+                <button id="btn_q1_alert">3.alerts</button>
+                <button id="btn_q1_numbers">4.numbers</button>
+            </div>
+        </div>
+    
+        <div id="div_question2">
+            <div id="question"> <!-- 2 -->
+                <h1 style= "text-align: center;">The condition inan if / else statement is enclosed with ______. </h1>
+            </div>
+            <div id="answer">
+                <button id="btn_q2_quotes">1.quotes</button>
+                <button id="btn_q2_curlyBracket">2.curly brackets</button>
+                <button id="btn_q2_parenthesis">3.parenthesis</button>
+                <button id="btn_q2_squareBrackets">4.square brackets</button>
+            </div>
+        </div>
+        
+        <div id="div_question3">
+            <div id="question"> <!-- 3 -->
+                <h1 style= "text-align: center;">Arrys in JavaScript can be used to store _____.</h1>
+            </div>
+            <div id="answer">
+                <button id="btn_q3_numberAndStrings">1.number and strings</button>
+                <button id="btn_q3_otherArrays">2.other arrays</button>
+                <button id="btn_q3_booleans">3.booleans</button>
+                <button id="btn_q3_allOfTheAbove">4.all of the above</button>
+            </div>
+        </div>
+
+        <div id="div_question4">
+            <div id = "question"> <!-- 4 -->
+                <h1 style= "text-align: center;">String values must be enclosed within _____ when being assigned to variables.</h1>
+            </div>
+            <div id="answer">
+                <button id="btn_q4_commas">1.commas</button>
+                <button id="btn_q4_curlyBrackets">2.curly brackets</button>
+                <button id="btn_q4_quotes">3.quotes</button>
+                <button id="btn_q4_parenthesis">4.parenthesis</button>
+            </div>
+        </div>
+        
+        <div id="div_question5">
+            <div id = "question"> <!-- 5-->
+                <h1 style= "text-align: center;">A very useful tool used during development and debugging for printting content to the debugger is:</h1>
+            </div>
+            <div id="answer">
+                <button id="btn_q5_JavaScript">1.JavaScript</button>
+                <button id="btn_q5_terminalBash">2.terminal/bash</button>
+                <button id="btn_q5_forLoops">3.for loops</button>
+                <button id="btn_q5_consoleLog">4.console.log</button>
+            </div>
+        </div>
+
+        <div id="div_FinalScore">
+            <div id = "question"> <!-- 6 -->
+                <h1 style= "text-align: center;">All done</h1>
+            </div>
+                <div id = FinalScore>
+                  <h3>Your final score is: </h3>
+                  <h3 id="lab_finalScore"></h3>
+                </div>
+                <div id = Enterinitials >
+                  <h3>Enter initials </h3>
+                  <input id="txt_init">
+                  <button id="btn_submitFinalScore">Submit</button>
+                </div>
+           </div>
+        </div>
+
+        <div id="div_HighScore">
+            <div id = Highscore>
+               <h1>Highscore</h1>
+               <input id="txt_highScore">
+            </div>
+            <div id = GoBackCHS>
+                <button id="btn_goBack">Go Back</button>
+                <button id="btn_clearHighScore">Clear High Scores</button>
+            </div>
+           
+        </div>
+
+    </div>
+    <div id="div_questionResult">
+        <div id = lab>
+            <div>
+                <label>-------------------------------------------</label>
+            </div>
+        </div>
+        <div id = Result>
+            <div>
+                <label id="lab_result"></label>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    </body>
+
+</html>
